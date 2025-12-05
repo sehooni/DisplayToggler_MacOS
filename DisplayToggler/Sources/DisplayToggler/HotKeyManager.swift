@@ -10,12 +10,13 @@ class HotKeyManager {
     private init() {}
     
     func registerHotKey() {
-        // Register Cmd + Option + D
+        // Register Cmd + Option + Control + D
         // Cmd = cmdKey
         // Option = optionKey
+        // Control = controlKey
         // D = 2 (Virtual key code for D)
         
-        let modifiers = UInt32(cmdKey | optionKey)
+        let modifiers = UInt32(cmdKey | optionKey | controlKey)
         let keyCode = UInt32(kVK_ANSI_D)
         
         var hotKeyID = EventHotKeyID()
@@ -25,7 +26,7 @@ class HotKeyManager {
         let status = RegisterEventHotKey(keyCode, modifiers, hotKeyID, GetApplicationEventTarget(), 0, &hotKeyRef)
         
         if status == noErr {
-            print("Global Hotkey registered: Cmd + Option + D")
+            print("Global Hotkey registered: Cmd + Option + Control + D")
             
             // Install event handler
             var eventType = EventTypeSpec(eventClass: OSType(kEventClassKeyboard), eventKind: UInt32(kEventHotKeyPressed))

@@ -17,7 +17,7 @@ Status: Shows the number of detected displays.
 Mirror Displays: Select this to mirror your secondary display to your main display.
 Extend Displays: Select this to extend your desktop (stops mirroring).
 Arrangement: Submenu to position the secondary display relative to the main display (Left, Right, Top, Bottom).
-Global Hotkey: Press Cmd + Option + D to toggle mirroring instantly, even if the menu icon is hidden.
+Global Hotkey: Press Cmd + Option + Control + D to toggle mirroring instantly, even if the menu icon is hidden.
 Quit: Exits the application.
 
 # Notes
