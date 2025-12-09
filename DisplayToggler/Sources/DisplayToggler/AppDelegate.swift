@@ -6,6 +6,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         print("DisplayToggler application started.")
+        
+        // Check for accessibility permissions
+        let accessEnabled = AXIsProcessTrusted()
+
+        if !accessEnabled {
+            print("Accessibility permissions not enabled. Please enable them in System Settings.")
+            let alert = NSAlert()
+            alert.messageText = "Accessibility Permissions Needed"
+            alert.informativeText = "DisplayToggler requires Accessibility permissions to move windows.\n\nPlease go to System Settings > Privacy & Security > Accessibility and enable 'DisplayToggler'."
+            alert.alertStyle = .warning
+            alert.addButton(withTitle: "OK")
+            alert.runModal()
+        } else {
+            print("Accessibility permissions granted.")
+        }
+        
         print("Attempting to create status item...")
         
         // Register Hotkey
@@ -43,8 +59,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem(title: "Mirror Displays", action: #selector(mirrorDisplays), keyEquivalent: "m"))
         menu.addItem(NSMenuItem(title: "Extend Displays", action: #selector(extendDisplays), keyEquivalent: "e"))
         menu.addItem(NSMenuItem.separator())
+        // Window Management Menu
+        let windowMenu = NSMenu()
+        windowMenu.addItem(NSMenuItem(title: "Left Half", action: #selector(windowLeft), keyEquivalent: ""))
+        windowMenu.addItem(NSMenuItem(title: "Right Half", action: #selector(windowRight), keyEquivalent: ""))
+        windowMenu.addItem(NSMenuItem(title: "Top Half", action: #selector(windowTop), keyEquivalent: ""))
+        windowMenu.addItem(NSMenuItem(title: "Bottom Half", action: #selector(windowBottom), keyEquivalent: ""))
+        windowMenu.addItem(NSMenuItem(title: "Maximize", action: #selector(windowMaximize), keyEquivalent: ""))
         
+        let windowItem = NSMenuItem(title: "Window Management", action: nil, keyEquivalent: "")
+        windowItem.submenu = windowMenu
+        menu.addItem(windowItem)
+        
+        menu.addItem(NSMenuItem.separator())
+        
+        // Arrangement Menu
         let arrangementMenu = NSMenu()
+        arrangementMenu.addItem(NSMenuItem(title: "Set Display 1 as Main", action: #selector(setDisplay1Main), keyEquivalent: ""))
+        arrangementMenu.addItem(NSMenuItem(title: "Set Display 2 as Main", action: #selector(setDisplay2Main), keyEquivalent: ""))
+        arrangementMenu.addItem(NSMenuItem.separator())
         arrangementMenu.addItem(NSMenuItem(title: "Left of Main", action: #selector(arrangeLeft), keyEquivalent: ""))
         arrangementMenu.addItem(NSMenuItem(title: "Right of Main", action: #selector(arrangeRight), keyEquivalent: ""))
         arrangementMenu.addItem(NSMenuItem(title: "Top of Main", action: #selector(arrangeTop), keyEquivalent: ""))
@@ -100,4 +133,15 @@ extension AppDelegate: NSMenuDelegate {
         print("Arranging: Bottom")
         DisplayManager.shared.setArrangement(position: .bottom)
     }
+    
+    // Window Management
+    @objc func windowLeft() { WindowManager.shared.moveFocusedWindow(to: .leftHalf) }
+    @objc func windowRight() { WindowManager.shared.moveFocusedWindow(to: .rightHalf) }
+    @objc func windowTop() { WindowManager.shared.moveFocusedWindow(to: .topHalf) }
+    @objc func windowBottom() { WindowManager.shared.moveFocusedWindow(to: .bottomHalf) }
+    @objc func windowMaximize() { WindowManager.shared.moveFocusedWindow(to: .maximize) }
+    
+    // Set Main Display
+    @objc func setDisplay1Main() { DisplayManager.shared.setMainDisplay(index: 0) }
+    @objc func setDisplay2Main() { DisplayManager.shared.setMainDisplay(index: 1) }
 }

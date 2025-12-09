@@ -138,6 +138,67 @@ class DisplayManager {
         }
     }
     
+    func setMainDisplay(index: Int) {
+        var configRef: CGDisplayConfigRef?
+        let error = CGBeginDisplayConfiguration(&configRef)
+        
+        guard error == .success, let config = configRef else {
+            print("Error beginning display configuration: \(error)")
+            return
+        }
+        
+        // Get all displays
+        var displayCount: UInt32 = 0
+        CGGetOnlineDisplayList(0, nil, &displayCount)
+        var displays = [CGDirectDisplayID](repeating: 0, count: Int(displayCount))
+        CGGetOnlineDisplayList(displayCount, &displays, &displayCount)
+        
+        guard displays.count > 1 else {
+            print("Not enough displays to swap main display.")
+            CGCancelDisplayConfiguration(config)
+            return
+        }
+        
+        // Sort displays by X position to map index 1, 2...
+        // Index 0 in argument = First display (Left-most)
+        let sortedDisplays = displays.sorted(by: { CGDisplayBounds($0).minX < CGDisplayBounds($1).minX })
+        
+        guard index >= 0 && index < sortedDisplays.count else {
+            print("Display index out of bounds.")
+            CGCancelDisplayConfiguration(config)
+            return
+        }
+        
+        let newMain = sortedDisplays[index]
+        
+        // If the target is already main (0,0), do nothing.
+        if newMain == CGMainDisplayID() {
+            print("Target is already main.")
+            CGCancelDisplayConfiguration(config)
+            return
+        }
+        
+        // Reconfigure logic similar to before
+        let targetBounds = CGDisplayBounds(newMain)
+        let shiftX = -targetBounds.origin.x
+        let shiftY = -targetBounds.origin.y
+        
+        for display in displays {
+            let bounds = CGDisplayBounds(display)
+            let newX = Int32(bounds.origin.x + shiftX)
+            let newY = Int32(bounds.origin.y + shiftY)
+            
+            CGConfigureDisplayOrigin(config, display, newX, newY)
+        }
+        
+        let completeError = CGCompleteDisplayConfiguration(config, .permanently)
+        if completeError != .success {
+            print("Error completing display configuration to set main: \(completeError)")
+        } else {
+            print("Main display swapped successfully to index \(index).")
+        }
+    }
+    
     func toggleMirroring() {
         // Check if currently mirroring
         // A simple check: if secondary display is mirroring main
