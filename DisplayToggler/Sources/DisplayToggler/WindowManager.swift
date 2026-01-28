@@ -76,16 +76,13 @@ class WindowManager {
     }
     
     private func getFocusedApplicationElement() -> AXUIElement? {
-        // Build the system-wide element
-        let systemWideElement = AXUIElementCreateSystemWide()
-        
-        var focusedApp: CFTypeRef?
-        let result = AXUIElementCopyAttributeValue(systemWideElement, kAXFocusedApplicationAttribute as CFString, &focusedApp)
-        
-        if result == .success {
-            return (focusedApp as! AXUIElement)
+        if let frontApp = NSWorkspace.shared.frontmostApplication {
+            // print("Frontmost App: \(frontApp.localizedName ?? "Unknown") (PID: \(frontApp.processIdentifier))")
+            return AXUIElementCreateApplication(frontApp.processIdentifier)
+        } else {
+            print("Could not determine frontmost application via NSWorkspace.")
+            return nil
         }
-        return nil
     }
     
     private func getFocusedWindowElement(for app: AXUIElement) -> AXUIElement? {
@@ -94,8 +91,10 @@ class WindowManager {
         
         if result == .success {
             return (focusedWindow as! AXUIElement)
+        } else {
+            print("Error getting focused window from app element: \(result.rawValue). This usually means the app does not expose an accessible window or permissions are denied.")
+            return nil
         }
-        return nil
     }
 
     private func isRoughlyEqual(_ r1: CGRect, _ r2: CGRect, threshold: CGFloat = 50) -> Bool {
