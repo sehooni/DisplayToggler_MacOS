@@ -1,0 +1,1391 @@
+[2026-02-02T10:16:22Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:16:22Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:16:23Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:16:23Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:16:23Z] OverlayManager: Found 2 screens
+[2026-02-02T10:17:39Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:17:39Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:17:40Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:17:40Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:17:40Z] OverlayManager: Found 2 screens
+[2026-02-02T10:17:40Z] OverlayManager: Creating window for screen 0
+[2026-02-02T10:17:40Z] OverlayManager: createOverlayWindow init start. Frame: (0.0, 0.0, 2560.0, 1440.0)
+[2026-02-02T10:17:40Z] OverlayManager: NSWindow init done
+[2026-02-02T10:17:40Z] OverlayManager: Window properties set
+[2026-02-02T10:17:40Z] OverlayManager: Showing window for screen 0
+[2026-02-02T10:17:40Z] OverlayManager: Creating window for screen 1
+[2026-02-02T10:17:40Z] OverlayManager: createOverlayWindow init start. Frame: (2560.0, 484.0, 1470.0, 956.0)
+[2026-02-02T10:17:40Z] OverlayManager: NSWindow init done
+[2026-02-02T10:17:41Z] OverlayManager: Window properties set
+[2026-02-02T10:17:41Z] OverlayManager: Showing window for screen 1
+[2026-02-02T10:19:12Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:19:12Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:19:13Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:19:13Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:19:13Z] OverlayManager: Found 2 screens
+[2026-02-02T10:19:13Z] OverlayManager: Creating window for screen 0
+[2026-02-02T10:19:13Z] OverlayManager: createOverlayWindow init start. Frame: (0.0, 0.0, 2560.0, 1440.0)
+[2026-02-02T10:19:13Z] OverlayManager: NSWindow init done
+[2026-02-02T10:19:13Z] OverlayManager: Window properties set
+[2026-02-02T10:19:13Z] OverlayManager: Window properties set
+[2026-02-02T10:19:13Z] OverlayManager: Showing window for screen 0
+[2026-02-02T10:19:13Z] OverlayManager: Creating window for screen 1
+[2026-02-02T10:19:13Z] OverlayManager: createOverlayWindow init start. Frame: (2560.0, 484.0, 1470.0, 956.0)
+[2026-02-02T10:19:13Z] OverlayManager: NSWindow init done
+[2026-02-02T10:19:13Z] OverlayManager: Window properties set
+[2026-02-02T10:19:13Z] OverlayManager: Window properties set
+[2026-02-02T10:19:13Z] OverlayManager: Showing window for screen 1
+[2026-02-02T10:19:13Z] OverlayView: draw() called for number 1
+[2026-02-02T10:19:13Z] OverlayView: draw() called for number 2
+[2026-02-02T10:21:01Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:21:01Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:21:01Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:21:01Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:21:02Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:21:02Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:21:02Z] OverlayManager: Found 2 screens
+[2026-02-02T10:21:02Z] OverlayManager: Creating window for screen 0
+[2026-02-02T10:21:02Z] OverlayManager: createOverlayWindow init start. Frame: (0.0, 0.0, 2560.0, 1440.0)
+[2026-02-02T10:21:02Z] OverlayManager: NSWindow init done
+[2026-02-02T10:21:02Z] OverlayManager: Window properties set
+[2026-02-02T10:21:02Z] OverlayManager: Window properties set
+[2026-02-02T10:21:02Z] OverlayManager: Showing window for screen 0
+[2026-02-02T10:21:02Z] OverlayManager: Creating window for screen 1
+[2026-02-02T10:21:02Z] OverlayManager: createOverlayWindow init start. Frame: (2560.0, 484.0, 1470.0, 956.0)
+[2026-02-02T10:21:02Z] OverlayManager: NSWindow init done
+[2026-02-02T10:21:02Z] OverlayManager: Window properties set
+[2026-02-02T10:21:02Z] OverlayManager: Window properties set
+[2026-02-02T10:21:02Z] OverlayManager: Showing window for screen 1
+[2026-02-02T10:21:02Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:21:02Z] OverlayView: draw() called for number 1
+[2026-02-02T10:21:02Z] OverlayView: draw() called for number 2
+[2026-02-02T10:21:05Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:21:05Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:21:05Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:21:05Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:23:09Z] HotKeyManager: Event received.
+[2026-02-02T10:23:09Z] HotKeyManager: Valid hotkey ID 8. Handling...
+[2026-02-02T10:23:09Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:23:09Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:23:09Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:23:09Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:23:10Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:23:10Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:23:10Z] OverlayManager: Found 2 screens
+[2026-02-02T10:23:10Z] OverlayManager: Creating window for screen 0
+[2026-02-02T10:23:10Z] OverlayManager: createOverlayWindow init start. Frame: (-2560.0, -484.0, 2560.0, 1440.0)
+[2026-02-02T10:23:10Z] OverlayManager: NSWindow init done
+[2026-02-02T10:23:10Z] OverlayManager: Window properties set
+[2026-02-02T10:23:10Z] OverlayManager: Window properties set
+[2026-02-02T10:23:10Z] OverlayManager: Showing window for screen 0
+[2026-02-02T10:23:10Z] OverlayManager: Creating window for screen 1
+[2026-02-02T10:23:10Z] OverlayManager: createOverlayWindow init start. Frame: (0.0, 0.0, 1470.0, 956.0)
+[2026-02-02T10:23:10Z] OverlayManager: NSWindow init done
+[2026-02-02T10:23:10Z] OverlayManager: Window properties set
+[2026-02-02T10:23:10Z] OverlayManager: Window properties set
+[2026-02-02T10:23:10Z] OverlayManager: Showing window for screen 1
+[2026-02-02T10:23:10Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:23:10Z] OverlayView: draw() called for number 1
+[2026-02-02T10:23:10Z] OverlayView: draw() called for number 2
+[2026-02-02T10:23:13Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:23:14Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:23:14Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:23:14Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:23:14Z] HotKeyManager: Event received.
+[2026-02-02T10:23:14Z] HotKeyManager: Valid hotkey ID 7. Handling...
+[2026-02-02T10:23:14Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:23:14Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:23:14Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:23:14Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:25:09Z] HotKeyManager: Event received.
+[2026-02-02T10:25:09Z] HotKeyManager: Valid hotkey ID 8. Handling...
+[2026-02-02T10:25:10Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:25:10Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:25:10Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:25:10Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:25:11Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:25:11Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:25:11Z] OverlayManager: Found 2 screens
+[2026-02-02T10:25:11Z] OverlayManager: Creating window for screen 0
+[2026-02-02T10:25:11Z] OverlayManager: createOverlayWindow init start. Frame: (-2560.0, -484.0, 2560.0, 1440.0)
+[2026-02-02T10:25:11Z] OverlayManager: NSWindow init done
+[2026-02-02T10:25:11Z] OverlayManager: Window properties set
+[2026-02-02T10:25:11Z] OverlayManager: Window properties set
+[2026-02-02T10:25:11Z] OverlayManager: Showing window for screen 0
+[2026-02-02T10:25:11Z] OverlayManager: Creating window for screen 1
+[2026-02-02T10:25:11Z] OverlayManager: createOverlayWindow init start. Frame: (0.0, 0.0, 1470.0, 956.0)
+[2026-02-02T10:25:11Z] OverlayManager: NSWindow init done
+[2026-02-02T10:25:11Z] OverlayManager: Window properties set
+[2026-02-02T10:25:11Z] OverlayManager: Window properties set
+[2026-02-02T10:25:11Z] OverlayManager: Showing window for screen 1
+[2026-02-02T10:25:11Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:25:11Z] OverlayView: draw() called for number 1
+[2026-02-02T10:25:11Z] OverlayView: draw() called for number 2
+[2026-02-02T10:25:14Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:25:15Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:25:15Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:25:15Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:25:16Z] HotKeyManager: Event received.
+[2026-02-02T10:28:13Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:28:43Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:28:46Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:28:50Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:28:50Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:28:50Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:28:50Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:28:50Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:28:52Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:28:52Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:28:52Z] OverlayManager: Found 2 screens
+[2026-02-02T10:28:52Z] OverlayManager: Creating window for screen 0
+[2026-02-02T10:28:52Z] OverlayManager: createOverlayWindow init start. Frame: (0.0, 0.0, 2560.0, 1440.0)
+[2026-02-02T10:28:52Z] OverlayManager: NSWindow init done
+[2026-02-02T10:28:52Z] OverlayManager: Window properties set
+[2026-02-02T10:28:52Z] OverlayManager: Window properties set
+[2026-02-02T10:28:52Z] OverlayManager: Showing window for screen 0
+[2026-02-02T10:28:52Z] OverlayManager: Creating window for screen 1
+[2026-02-02T10:28:52Z] OverlayManager: createOverlayWindow init start. Frame: (2560.0, 484.0, 1470.0, 956.0)
+[2026-02-02T10:28:52Z] OverlayManager: NSWindow init done
+[2026-02-02T10:28:52Z] OverlayManager: Window properties set
+[2026-02-02T10:28:52Z] OverlayManager: Window properties set
+[2026-02-02T10:28:52Z] OverlayManager: Showing window for screen 1
+[2026-02-02T10:28:52Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:28:52Z] OverlayView: draw() called for number 1
+[2026-02-02T10:28:52Z] OverlayView: draw() called for number 2
+[2026-02-02T10:28:55Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:28:55Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:28:55Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:28:55Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:28:56Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:28:56Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:28:56Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:28:56Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:28:56Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:30:35Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:30:48Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:30:48Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:30:56Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:30:56Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:31:01Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:31:02Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:31:03Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:31:03Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:31:07Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:31:07Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:31:10Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:31:11Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:31:11Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:31:15Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:31:15Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:31:16Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:31:17Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:34:20Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:35:03Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:35:17Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:35:19Z] HotKeyManager: Event Key: 123 Flags: 12320768 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:19Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:35:21Z] HotKeyManager: Event Key: 124 Flags: 12320768 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:21Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:35:21Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:35:21Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:35:21Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:35:21Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:35:22Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:35:22Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:35:22Z] OverlayManager: Found 2 screens
+[2026-02-02T10:35:22Z] OverlayManager: Creating window for screen 0 (SIMULATED)
+[2026-02-02T10:35:22Z] OverlayManager: Creating window for screen 1 (SIMULATED)
+[2026-02-02T10:35:22Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:35:25Z] HotKeyManager: Event Key: 123 Flags: 12320768 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:25Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:35:25Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:35:25Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:35:25Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:35:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:35:25Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:35:25Z] OverlayManager: No windows to fade out
+[2026-02-02T10:35:26Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:35:26Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:35:26Z] OverlayManager: Found 2 screens
+[2026-02-02T10:35:26Z] OverlayManager: Creating window for screen 0 (SIMULATED)
+[2026-02-02T10:35:26Z] OverlayManager: Creating window for screen 1 (SIMULATED)
+[2026-02-02T10:35:26Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:35:28Z] HotKeyManager: Event Key: 2 Flags: 1835008 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:28Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:35:30Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:35:30Z] OverlayManager: No windows to fade out
+[2026-02-02T10:35:30Z] HotKeyManager: Event Key: 2 Flags: 1835008 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:30Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:35:30Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:35:30Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:35:30Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:35:30Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:35:31Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:35:31Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:35:31Z] OverlayManager: Found 2 screens
+[2026-02-02T10:35:31Z] OverlayManager: Creating window for screen 0 (SIMULATED)
+[2026-02-02T10:35:31Z] OverlayManager: Creating window for screen 1 (SIMULATED)
+[2026-02-02T10:35:31Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:35:33Z] HotKeyManager: Event Key: 123 Flags: 12058624 (Cmd:true, Opt:true, Ctrl:false)
+[2026-02-02T10:35:34Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:35:34Z] OverlayManager: No windows to fade out
+[2026-02-02T10:35:36Z] HotKeyManager: Event Key: 123 Flags: 11272192 (Cmd:false, Opt:true, Ctrl:true)
+[2026-02-02T10:35:37Z] HotKeyManager: Event Key: 124 Flags: 11272192 (Cmd:false, Opt:true, Ctrl:true)
+[2026-02-02T10:35:38Z] HotKeyManager: Event Key: 123 Flags: 11272192 (Cmd:false, Opt:true, Ctrl:true)
+[2026-02-02T10:35:39Z] HotKeyManager: Event Key: 124 Flags: 11272192 (Cmd:false, Opt:true, Ctrl:true)
+[2026-02-02T10:35:40Z] HotKeyManager: Event Key: 36 Flags: 786432 (Cmd:false, Opt:true, Ctrl:true)
+[2026-02-02T10:35:45Z] HotKeyManager: Event Key: 18 Flags: 1835008 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:45Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:35:46Z] HotKeyManager: Event Key: 19 Flags: 1835008 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:46Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:35:47Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:35:47Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:35:47Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:35:47Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:35:48Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:35:48Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:35:48Z] OverlayManager: Found 2 screens
+[2026-02-02T10:35:48Z] OverlayManager: Creating window for screen 0 (SIMULATED)
+[2026-02-02T10:35:48Z] OverlayManager: Creating window for screen 1 (SIMULATED)
+[2026-02-02T10:35:48Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:35:49Z] HotKeyManager: Event Key: 18 Flags: 1835008 (Cmd:true, Opt:true, Ctrl:true)
+[2026-02-02T10:35:49Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:35:50Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:35:50Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:35:50Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:35:50Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:35:51Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:35:51Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:35:51Z] OverlayManager: Found 2 screens
+[2026-02-02T10:35:51Z] OverlayManager: Creating window for screen 0 (SIMULATED)
+[2026-02-02T10:35:51Z] OverlayManager: Creating window for screen 1 (SIMULATED)
+[2026-02-02T10:35:51Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:35:51Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:35:51Z] OverlayManager: No windows to fade out
+[2026-02-02T10:35:54Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:35:54Z] OverlayManager: No windows to fade out
+[2026-02-02T10:35:54Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:54Z] HotKeyManager: Event Key: 31 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:55Z] HotKeyManager: Event Key: 12 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:55Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:55Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:55Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:55Z] HotKeyManager: Event Key: 14 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:56Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:56Z] HotKeyManager: Event Key: 13 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:56Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:57Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:57Z] HotKeyManager: Event Key: 3 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:57Z] HotKeyManager: Event Key: 16 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:58Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:59Z] HotKeyManager: Event Key: 16 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:59Z] HotKeyManager: Event Key: 14 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:59Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:35:59Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 13 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:00Z] HotKeyManager: Event Key: 5 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:01Z] HotKeyManager: Event Key: 15 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:01Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:01Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:02Z] HotKeyManager: Event Key: 0 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:02Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:02Z] HotKeyManager: Event Key: 14 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:02Z] HotKeyManager: Event Key: 46 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:02Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:02Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 15 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 46 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:03Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 13 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 3 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 13 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:04Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:05Z] HotKeyManager: Event Key: 15 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:05Z] HotKeyManager: Event Key: 14 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:05Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:05Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:05Z] HotKeyManager: Event Key: 5 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:05Z] HotKeyManager: Event Key: 31 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:06Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:06Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:06Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:06Z] HotKeyManager: Event Key: 35 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:07Z] HotKeyManager: Event Key: 47 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:07Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:08Z] HotKeyManager: Event Key: 5 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:08Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:08Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 0 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 32 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 12 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 38 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:09Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:10Z] HotKeyManager: Event Key: 5 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:10Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:10Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:11Z] HotKeyManager: Event Key: 15 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:11Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:11Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:11Z] HotKeyManager: Event Key: 46 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:11Z] HotKeyManager: Event Key: 2 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:12Z] HotKeyManager: Event Key: 0 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:12Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:12Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:12Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:12Z] HotKeyManager: Event Key: 12 Flags: 131072 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:13Z] HotKeyManager: Event Key: 31 Flags: 131072 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:13Z] HotKeyManager: Event Key: 15 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:13Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:13Z] HotKeyManager: Event Key: 18 Flags: 131072 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:14Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:14Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:14Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:14Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:15Z] HotKeyManager: Event Key: 51 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:16Z] HotKeyManager: Event Key: 0 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:16Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:16Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:16Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 5 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 31 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 15 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 32 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 3 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 5 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 40 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:17Z] HotKeyManager: Event Key: 0 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:18Z] HotKeyManager: Event Key: 32 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:18Z] HotKeyManager: Event Key: 1 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:18Z] HotKeyManager: Event Key: 49 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:19Z] HotKeyManager: Event Key: 14 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:19Z] HotKeyManager: Event Key: 4 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:19Z] HotKeyManager: Event Key: 37 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:19Z] HotKeyManager: Event Key: 3 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:19Z] HotKeyManager: Event Key: 14 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:19Z] HotKeyManager: Event Key: 46 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:20Z] HotKeyManager: Event Key: 17 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:20Z] HotKeyManager: Event Key: 44 Flags: 131072 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:36:20Z] HotKeyManager: Event Key: 36 Flags: 0 (Cmd:false, Opt:false, Ctrl:false)
+[2026-02-02T10:37:31Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:37:48Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:37:55Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:37:56Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:37:56Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:37:56Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:37:56Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:37:57Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:37:57Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:37:57Z] OverlayManager: Found 2 screens
+[2026-02-02T10:37:57Z] OverlayManager: Window properties set
+[2026-02-02T10:37:57Z] OverlayManager: Window properties set
+[2026-02-02T10:37:57Z] OverlayManager: Window properties set
+[2026-02-02T10:37:57Z] OverlayManager: Window properties set
+[2026-02-02T10:37:57Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:37:57Z] OverlayView: draw() called for number 1
+[2026-02-02T10:37:57Z] OverlayView: draw() called for number 2
+[2026-02-02T10:38:00Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:38:01Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:38:01Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:38:01Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:38:01Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:38:01Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:38:01Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:38:01Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:38:01Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:12Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:39:34Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:39:37Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:39:37Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:39:37Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:39:37Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:39:37Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:38Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:39:38Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:39:38Z] OverlayManager: Found 2 screens
+[2026-02-02T10:39:38Z] OverlayManager: Window properties set
+[2026-02-02T10:39:38Z] OverlayManager: Window properties set
+[2026-02-02T10:39:38Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:39:38Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:38Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:41Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:39:42Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:39:42Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:39:42Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:39:42Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:42Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:42Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:42Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:39:42Z] OverlayManager: No windows to fade out
+[2026-02-02T10:39:43Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:39:43Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:39:43Z] OverlayManager: Found 2 screens
+[2026-02-02T10:39:43Z] OverlayManager: Window properties set
+[2026-02-02T10:39:43Z] OverlayManager: Window properties set
+[2026-02-02T10:39:43Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:39:43Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:43Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:46Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:39:47Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:39:47Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:39:47Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:48Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:39:49Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:39:49Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:39:49Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:39:49Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:49Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:50Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:39:50Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:39:50Z] OverlayManager: Found 2 screens
+[2026-02-02T10:39:50Z] OverlayManager: Window properties set
+[2026-02-02T10:39:50Z] OverlayManager: Window properties set
+[2026-02-02T10:39:50Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:39:50Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:50Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:53Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:39:53Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:39:54Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:39:54Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:39:54Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:39:54Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:54Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:54Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:54Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:39:54Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:39:54Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:39:55Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:39:55Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:39:55Z] OverlayManager: Found 2 screens
+[2026-02-02T10:39:55Z] OverlayManager: Window properties set
+[2026-02-02T10:39:55Z] OverlayManager: Window properties set
+[2026-02-02T10:39:55Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:39:55Z] OverlayView: draw() called for number 1
+[2026-02-02T10:39:55Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:57Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:39:58Z] OverlayView: draw() called for number 2
+[2026-02-02T10:39:58Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:39:59Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:39:59Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:39:59Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:01Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:01Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:40:01Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:01Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:40:01Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:02Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:02Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:02Z] OverlayManager: Found 1 screens
+[2026-02-02T10:40:02Z] OverlayManager: Window properties set
+[2026-02-02T10:40:02Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:02Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:04Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:40:05Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:40:05Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:05Z] OverlayManager: removeOverlays() called. Count: 1
+[2026-02-02T10:40:05Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:05Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:05Z] OverlayManager: No windows to fade out
+[2026-02-02T10:40:06Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:06Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:06Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:06Z] OverlayManager: Window properties set
+[2026-02-02T10:40:06Z] OverlayManager: Window properties set
+[2026-02-02T10:40:06Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:06Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:06Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:07Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:08Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:40:08Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:08Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:08Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:08Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:08Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:09Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:09Z] OverlayManager: No windows to fade out
+[2026-02-02T10:40:09Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:09Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:09Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:09Z] OverlayManager: Window properties set
+[2026-02-02T10:40:09Z] OverlayManager: Window properties set
+[2026-02-02T10:40:09Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:09Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:09Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:10Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:40:11Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:12Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:12Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:40:12Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:12Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:14Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:40:14Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:40:14Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:14Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:40:14Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:16Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:16Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:16Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:16Z] OverlayManager: Window properties set
+[2026-02-02T10:40:16Z] OverlayManager: Window properties set
+[2026-02-02T10:40:16Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:16Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:16Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:18Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:19Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:40:19Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:19Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:19Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:19Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:19Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:19Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:19Z] OverlayManager: No windows to fade out
+[2026-02-02T10:40:20Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:20Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:20Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:20Z] OverlayManager: Window properties set
+[2026-02-02T10:40:20Z] OverlayManager: Window properties set
+[2026-02-02T10:40:20Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:20Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:20Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:23Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:23Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:40:23Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:23Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:24Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:40:25Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:40:25Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:25Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:40:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:25Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:26Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:26Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:26Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:26Z] OverlayManager: Window properties set
+[2026-02-02T10:40:26Z] OverlayManager: Window properties set
+[2026-02-02T10:40:26Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:26Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:26Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:29Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:29Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:40:29Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:29Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:30Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:40:30Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:31Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:40:31Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:31Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:40:31Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:31Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:31Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:32Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:32Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:32Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:32Z] OverlayManager: Window properties set
+[2026-02-02T10:40:32Z] OverlayManager: Window properties set
+[2026-02-02T10:40:32Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:32Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:32Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:35Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:36Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:40:36Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:36Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:42Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:44Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:45Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:40:45Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:40:45Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:45Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:40:45Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:45Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:46Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:46Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:46Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:46Z] OverlayManager: Window properties set
+[2026-02-02T10:40:46Z] OverlayManager: Window properties set
+[2026-02-02T10:40:46Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:46Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:46Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:49Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:40:50Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:40:50Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:40:50Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:50Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:40:50Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:50Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:50Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:50Z] OverlayManager: No windows to fade out
+[2026-02-02T10:40:51Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:40:51Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:40:51Z] OverlayManager: Found 2 screens
+[2026-02-02T10:40:51Z] OverlayManager: Window properties set
+[2026-02-02T10:40:51Z] OverlayManager: Window properties set
+[2026-02-02T10:40:51Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:40:51Z] OverlayView: draw() called for number 1
+[2026-02-02T10:40:51Z] OverlayView: draw() called for number 2
+[2026-02-02T10:40:54Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:40:54Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:40:54Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:40:54Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:41:10Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:41:11Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:41:11Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:41:11Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:41:11Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:41:11Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:12Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:41:12Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:41:12Z] OverlayManager: Found 2 screens
+[2026-02-02T10:41:12Z] OverlayManager: Window properties set
+[2026-02-02T10:41:12Z] OverlayManager: Window properties set
+[2026-02-02T10:41:12Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:41:12Z] OverlayView: draw() called for number 1
+[2026-02-02T10:41:12Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:14Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:41:15Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:41:15Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:41:15Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:41:15Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:41:15Z] OverlayView: draw() called for number 1
+[2026-02-02T10:41:15Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:15Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:41:15Z] OverlayManager: No windows to fade out
+[2026-02-02T10:41:16Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:41:16Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:41:16Z] OverlayManager: Found 2 screens
+[2026-02-02T10:41:16Z] OverlayManager: Window properties set
+[2026-02-02T10:41:16Z] OverlayManager: Window properties set
+[2026-02-02T10:41:16Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:41:16Z] OverlayView: draw() called for number 1
+[2026-02-02T10:41:16Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:19Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:41:20Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:41:20Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:41:20Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:41:20Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:41:21Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:41:21Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:41:21Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:41:21Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:41:21Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:22Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:41:22Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:41:22Z] OverlayManager: Found 2 screens
+[2026-02-02T10:41:22Z] OverlayManager: Window properties set
+[2026-02-02T10:41:22Z] OverlayManager: Window properties set
+[2026-02-02T10:41:22Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:41:22Z] OverlayView: draw() called for number 1
+[2026-02-02T10:41:22Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:24Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:41:25Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:41:25Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:41:25Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:41:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:41:25Z] OverlayView: draw() called for number 1
+[2026-02-02T10:41:25Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:25Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:41:25Z] OverlayManager: No windows to fade out
+[2026-02-02T10:41:26Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:41:26Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:41:26Z] OverlayManager: Found 2 screens
+[2026-02-02T10:41:26Z] OverlayManager: Window properties set
+[2026-02-02T10:41:26Z] OverlayManager: Window properties set
+[2026-02-02T10:41:26Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:41:26Z] OverlayView: draw() called for number 1
+[2026-02-02T10:41:26Z] OverlayView: draw() called for number 2
+[2026-02-02T10:41:29Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:41:29Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:41:29Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:41:29Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:00Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:43:17Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:43:20Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:43:20Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:43:20Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:43:20Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:43:20Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:22Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:43:22Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:43:22Z] OverlayManager: Found 2 screens
+[2026-02-02T10:43:22Z] OverlayManager: Window properties set
+[2026-02-02T10:43:22Z] OverlayManager: Window properties set
+[2026-02-02T10:43:22Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:43:22Z] OverlayView: draw() called for number 1
+[2026-02-02T10:43:22Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:25Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:43:25Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:43:25Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:43:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:28Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:43:31Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:43:31Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:43:31Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:43:31Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:43:31Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:31Z] OverlayView: draw() called for number 1
+[2026-02-02T10:43:31Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:32Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:43:32Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:43:32Z] OverlayManager: Found 2 screens
+[2026-02-02T10:43:32Z] OverlayManager: Window properties set
+[2026-02-02T10:43:32Z] OverlayManager: Window properties set
+[2026-02-02T10:43:32Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:43:32Z] OverlayView: draw() called for number 1
+[2026-02-02T10:43:32Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:35Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:43:36Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:43:36Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:43:36Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:36Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:43:38Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:43:40Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:43:41Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:43:41Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:43:41Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:43:41Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:41Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:42Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:43:42Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:43:42Z] OverlayManager: Found 2 screens
+[2026-02-02T10:43:42Z] OverlayManager: Window properties set
+[2026-02-02T10:43:42Z] OverlayManager: Window properties set
+[2026-02-02T10:43:42Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:43:42Z] OverlayView: draw() called for number 1
+[2026-02-02T10:43:42Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:45Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:43:45Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:43:45Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:43:45Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:47Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:43:47Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:49Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:43:49Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:43:49Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:43:49Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:43:49Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:43:50Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:43:50Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:43:50Z] OverlayManager: Found 2 screens
+[2026-02-02T10:43:50Z] OverlayManager: Window properties set
+[2026-02-02T10:43:50Z] OverlayManager: Window properties set
+[2026-02-02T10:43:50Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:43:50Z] OverlayView: draw() called for number 1
+[2026-02-02T10:43:50Z] OverlayView: draw() called for number 2
+[2026-02-02T10:43:54Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:43:54Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:43:54Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:43:54Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:45:00Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:45:19Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:45:21Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:45:25Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:45:25Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:45:25Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:45:25Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:45:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:45:26Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:45:26Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:45:26Z] OverlayManager: Found 2 screens
+[2026-02-02T10:45:26Z] OverlayManager: Window properties set
+[2026-02-02T10:45:26Z] OverlayManager: Window properties set
+[2026-02-02T10:45:26Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:45:26Z] OverlayView: draw() called for number 1
+[2026-02-02T10:45:26Z] OverlayView: draw() called for number 2
+[2026-02-02T10:45:29Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:45:30Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:45:30Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:45:30Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:45:32Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:45:33Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:45:33Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:45:33Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:45:33Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:45:33Z] OverlayView: draw() called for number 1
+[2026-02-02T10:45:33Z] OverlayView: draw() called for number 2
+[2026-02-02T10:45:34Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:45:34Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:45:34Z] OverlayManager: Found 2 screens
+[2026-02-02T10:45:34Z] OverlayManager: Window properties set
+[2026-02-02T10:45:34Z] OverlayManager: Window properties set
+[2026-02-02T10:45:34Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:45:34Z] OverlayView: draw() called for number 1
+[2026-02-02T10:45:34Z] OverlayView: draw() called for number 2
+[2026-02-02T10:45:37Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:45:37Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:45:37Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:45:37Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:45:47Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:45:47Z] OverlayView: draw() called for number 1
+[2026-02-02T10:45:50Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:45:51Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:45:51Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:45:51Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:45:51Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:45:52Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:45:52Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:45:52Z] OverlayManager: Found 2 screens
+[2026-02-02T10:45:52Z] OverlayManager: Window properties set
+[2026-02-02T10:45:52Z] OverlayManager: Window properties set
+[2026-02-02T10:45:52Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:45:52Z] OverlayView: draw() called for number 1
+[2026-02-02T10:45:52Z] OverlayView: draw() called for number 2
+[2026-02-02T10:45:55Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:45:56Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:45:56Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:45:56Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:02Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:46:03Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:46:03Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:03Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:03Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:03Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:03Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:46:03Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:46:03Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:03Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:03Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:03Z] OverlayManager: Task cancelled after sleep.
+[2026-02-02T10:46:04Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:46:04Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:46:04Z] OverlayManager: Found 2 screens
+[2026-02-02T10:46:04Z] OverlayManager: Window properties set
+[2026-02-02T10:46:04Z] OverlayManager: Window properties set
+[2026-02-02T10:46:04Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:46:04Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:04Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:08Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:46:08Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:46:08Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:46:08Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:08Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:46:10Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:46:10Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:46:10Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:10Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:10Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:10Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:11Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:46:11Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:46:11Z] OverlayManager: Found 2 screens
+[2026-02-02T10:46:11Z] OverlayManager: Window properties set
+[2026-02-02T10:46:11Z] OverlayManager: Window properties set
+[2026-02-02T10:46:11Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:46:11Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:11Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:14Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:46:15Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:46:15Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:46:15Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:15Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:46:15Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:15Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:15Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:15Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:46:15Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:15Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:16Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:46:16Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:46:16Z] OverlayManager: Found 2 screens
+[2026-02-02T10:46:16Z] OverlayManager: Window properties set
+[2026-02-02T10:46:16Z] OverlayManager: Window properties set
+[2026-02-02T10:46:16Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:46:16Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:16Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:19Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:46:20Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:46:20Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:46:20Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:31Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:46:31Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:32Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:46:33Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:46:33Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:33Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:33Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:34Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:46:34Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:46:34Z] OverlayManager: Found 2 screens
+[2026-02-02T10:46:34Z] OverlayManager: Window properties set
+[2026-02-02T10:46:34Z] OverlayManager: Window properties set
+[2026-02-02T10:46:34Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:46:34Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:34Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:37Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:46:38Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:46:38Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:46:38Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:47Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:46:47Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:46:47Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:47Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:47Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:47Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:48Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:46:48Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:46:48Z] OverlayManager: Found 2 screens
+[2026-02-02T10:46:48Z] OverlayManager: Window properties set
+[2026-02-02T10:46:48Z] OverlayManager: Window properties set
+[2026-02-02T10:46:48Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:46:48Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:48Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:51Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:46:52Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:46:52Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:46:52Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:54Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:46:55Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:46:55Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:46:55Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:46:55Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:46:55Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:55Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:56Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:46:56Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:46:56Z] OverlayManager: Found 2 screens
+[2026-02-02T10:46:56Z] OverlayManager: Window properties set
+[2026-02-02T10:46:56Z] OverlayManager: Window properties set
+[2026-02-02T10:46:56Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:46:56Z] OverlayView: draw() called for number 1
+[2026-02-02T10:46:56Z] OverlayView: draw() called for number 2
+[2026-02-02T10:46:59Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:47:00Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:47:00Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:47:00Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:00Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:47:00Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:47:00Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:47:00Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:47:00Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:00Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:01Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:47:01Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:47:01Z] OverlayManager: Found 2 screens
+[2026-02-02T10:47:01Z] OverlayManager: Window properties set
+[2026-02-02T10:47:01Z] OverlayManager: Window properties set
+[2026-02-02T10:47:01Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:47:01Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:01Z] OverlayView: draw() called for number 2
+[2026-02-02T10:47:05Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:47:05Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:47:05Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:47:05Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:08Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:47:08Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:16Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:47:17Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:47:17Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:47:17Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:47:17Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:18Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:47:18Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:47:18Z] OverlayManager: Found 2 screens
+[2026-02-02T10:47:18Z] OverlayManager: Window properties set
+[2026-02-02T10:47:18Z] OverlayManager: Window properties set
+[2026-02-02T10:47:18Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:47:18Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:18Z] OverlayView: draw() called for number 2
+[2026-02-02T10:47:20Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:47:20Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:47:20Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:47:20Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:47:20Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:20Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:20Z] OverlayView: draw() called for number 2
+[2026-02-02T10:47:21Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:47:21Z] OverlayManager: No windows to fade out
+[2026-02-02T10:47:21Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:47:21Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:47:21Z] OverlayManager: Found 2 screens
+[2026-02-02T10:47:21Z] OverlayManager: Window properties set
+[2026-02-02T10:47:21Z] OverlayManager: Window properties set
+[2026-02-02T10:47:21Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:47:21Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:21Z] OverlayView: draw() called for number 2
+[2026-02-02T10:47:24Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:47:25Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:47:25Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:25Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:47:25Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:47:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:26Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:47:27Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:47:27Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:47:27Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:47:27Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:47:28Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:47:28Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:47:28Z] OverlayManager: Found 2 screens
+[2026-02-02T10:47:28Z] OverlayManager: Window properties set
+[2026-02-02T10:47:28Z] OverlayManager: Window properties set
+[2026-02-02T10:47:28Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:47:28Z] OverlayView: draw() called for number 1
+[2026-02-02T10:47:28Z] OverlayView: draw() called for number 2
+[2026-02-02T10:47:31Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:47:32Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:47:32Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:47:32Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:03Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:50:15Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:50:30Z] HotKeyManager: Registering NSEvent monitors.
+[2026-02-02T10:50:32Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:50:35Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:50:35Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:50:35Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:50:35Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:50:35Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:36Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:50:36Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:50:36Z] OverlayManager: Found 2 screens
+[2026-02-02T10:50:36Z] OverlayManager: Window properties set
+[2026-02-02T10:50:36Z] OverlayManager: Window properties set
+[2026-02-02T10:50:36Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:50:36Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:36Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:40Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:50:40Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:50:40Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:50:40Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:50:40Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:50:40Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:40Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:40Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:40Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:50:40Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:50:40Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:41Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:50:41Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:50:41Z] OverlayManager: Found 2 screens
+[2026-02-02T10:50:41Z] OverlayManager: Window properties set
+[2026-02-02T10:50:41Z] OverlayManager: Window properties set
+[2026-02-02T10:50:41Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:50:41Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:41Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:44Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:50:45Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:50:45Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:45Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:50:45Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:50:45Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:47Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:50:47Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:50:47Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:50:47Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:50:47Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:48Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:50:48Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:50:48Z] OverlayManager: Found 2 screens
+[2026-02-02T10:50:48Z] OverlayManager: Window properties set
+[2026-02-02T10:50:48Z] OverlayManager: Window properties set
+[2026-02-02T10:50:48Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:50:48Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:48Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:51Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:50:51Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:50:51Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:50:51Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:50:51Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:51Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:51Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:51Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:50:52Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:50:52Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:50:52Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:50:52Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:52Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:52Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:50:52Z] OverlayManager: No windows to fade out
+[2026-02-02T10:50:53Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:50:53Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:50:53Z] OverlayManager: Found 2 screens
+[2026-02-02T10:50:53Z] OverlayManager: Window properties set
+[2026-02-02T10:50:53Z] OverlayManager: Window properties set
+[2026-02-02T10:50:53Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:50:53Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:53Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:55Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:50:56Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:50:56Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:50:56Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:50:56Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:50:56Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:56Z] OverlayView: draw() called for number 2
+[2026-02-02T10:50:56Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:50:56Z] OverlayManager: No windows to fade out
+[2026-02-02T10:50:57Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:50:57Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:50:57Z] OverlayManager: Found 2 screens
+[2026-02-02T10:50:57Z] OverlayManager: Window properties set
+[2026-02-02T10:50:57Z] OverlayManager: Window properties set
+[2026-02-02T10:50:57Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:50:57Z] OverlayView: draw() called for number 1
+[2026-02-02T10:50:57Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:00Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:51:00Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:00Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:01Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:51:01Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:01Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:02Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:51:02Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:51:02Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:02Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:51:02Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:03Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:03Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:03Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:03Z] OverlayManager: Window properties set
+[2026-02-02T10:51:03Z] OverlayManager: Window properties set
+[2026-02-02T10:51:03Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:03Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:03Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:06Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:51:06Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:51:06Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:06Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:06Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:06Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:06Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:06Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:06Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:07Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:07Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:07Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:07Z] OverlayManager: Window properties set
+[2026-02-02T10:51:07Z] OverlayManager: Window properties set
+[2026-02-02T10:51:07Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:07Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:07Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:10Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:11Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:51:11Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:11Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:51:11Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:11Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:13Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:51:13Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:51:13Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:13Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:51:13Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:15Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:15Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:15Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:15Z] OverlayManager: Window properties set
+[2026-02-02T10:51:15Z] OverlayManager: Window properties set
+[2026-02-02T10:51:15Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:15Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:15Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:17Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:51:18Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:51:18Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:18Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:18Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:18Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:18Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:18Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:18Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:19Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:19Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:19Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:19Z] OverlayManager: Window properties set
+[2026-02-02T10:51:19Z] OverlayManager: Window properties set
+[2026-02-02T10:51:19Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:19Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:19Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:20Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:51:21Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:51:21Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:21Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:21Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:21Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:21Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:22Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:22Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:22Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:22Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:22Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:22Z] OverlayManager: Window properties set
+[2026-02-02T10:51:22Z] OverlayManager: Window properties set
+[2026-02-02T10:51:22Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:22Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:22Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:25Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:51:25Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:51:25Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:25Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:25Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:25Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:25Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:25Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:25Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:26Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:26Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:26Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:26Z] OverlayManager: Window properties set
+[2026-02-02T10:51:26Z] OverlayManager: Window properties set
+[2026-02-02T10:51:26Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:26Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:26Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:29Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:51:30Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:51:30Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:30Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:30Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:30Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:30Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:30Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:30Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:31Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:31Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:31Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:31Z] OverlayManager: Window properties set
+[2026-02-02T10:51:31Z] OverlayManager: Window properties set
+[2026-02-02T10:51:31Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:31Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:31Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:34Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:35Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:51:35Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:35Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:37Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:51:41Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:51:43Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:51:44Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:45Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:51:45Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:51:45Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:45Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:51:45Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:46Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:46Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:46Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:46Z] OverlayManager: Window properties set
+[2026-02-02T10:51:46Z] OverlayManager: Window properties set
+[2026-02-02T10:51:46Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:46Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:46Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:47Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:51:48Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:51:48Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:48Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:48Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:48Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:48Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:49Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:49Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:49Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:49Z] OverlayManager: Window properties set
+[2026-02-02T10:51:49Z] OverlayManager: Window properties set
+[2026-02-02T10:51:49Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:49Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:49Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:49Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:51:50Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:51:50Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:50Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:50Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:50Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:50Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:50Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:51Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:51:51Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:51:51Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:51:51Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:51:51Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:51:51Z] OverlayManager: Task cancelled after sleep.
+[2026-02-02T10:51:52Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:52Z] OverlayManager: No windows to fade out
+[2026-02-02T10:51:52Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:51:52Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:51:52Z] OverlayManager: Found 2 screens
+[2026-02-02T10:51:52Z] OverlayManager: Window properties set
+[2026-02-02T10:51:52Z] OverlayManager: Window properties set
+[2026-02-02T10:51:52Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:51:52Z] OverlayView: draw() called for number 1
+[2026-02-02T10:51:52Z] OverlayView: draw() called for number 2
+[2026-02-02T10:51:55Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:51:56Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:51:56Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:51:56Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:10Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:53:11Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:12Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:53:12Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:53:12Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:53:12Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:53:12Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:13Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:53:13Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:53:13Z] OverlayManager: Found 2 screens
+[2026-02-02T10:53:13Z] OverlayManager: Window properties set
+[2026-02-02T10:53:13Z] OverlayManager: Window properties set
+[2026-02-02T10:53:13Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:53:13Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:13Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:15Z] HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.
+[2026-02-02T10:53:15Z] DisplayManager: Main display swapped successfully to index 1. Requesting Overlay.
+[2026-02-02T10:53:15Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:53:15Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:53:15Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:15Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:15Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:16Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:53:16Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:53:16Z] OverlayManager: Found 2 screens
+[2026-02-02T10:53:16Z] OverlayManager: Window properties set
+[2026-02-02T10:53:16Z] OverlayManager: Window properties set
+[2026-02-02T10:53:16Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:53:16Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:16Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:17Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:53:17Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:53:17Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:53:17Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:17Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:53:18Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:19Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:53:19Z] OverlayManager: No windows to fade out
+[2026-02-02T10:53:21Z] HotKeyManager: Hotkey D (Mirror) detected.
+[2026-02-02T10:53:21Z] DisplayManager: Configuration successful. Requesting Overlay.
+[2026-02-02T10:53:21Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:53:21Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:53:21Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:22Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:53:22Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:53:22Z] OverlayManager: Found 2 screens
+[2026-02-02T10:53:22Z] OverlayManager: Window properties set
+[2026-02-02T10:53:22Z] OverlayManager: Window properties set
+[2026-02-02T10:53:22Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:53:22Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:22Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:26Z] OverlayManager: fadeOutAndRemoveOverlays() called
+[2026-02-02T10:53:26Z] OverlayManager: Fade out complete. Removing overlays.
+[2026-02-02T10:53:26Z] OverlayManager: removeOverlays() called. Count: 2
+[2026-02-02T10:53:26Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:29Z] HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.
+[2026-02-02T10:53:30Z] DisplayManager: Main display swapped successfully to index 0. Requesting Overlay.
+[2026-02-02T10:53:30Z] OverlayManager: showDisplayIdentification called.
+[2026-02-02T10:53:30Z] OverlayManager: removeOverlays() called. Count: 0
+[2026-02-02T10:53:30Z] OverlayManager: removeOverlays() finished
+[2026-02-02T10:53:30Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:30Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:31Z] OverlayManager: Executing delayed show.
+[2026-02-02T10:53:31Z] OverlayManager: createAndShowOverlays running.
+[2026-02-02T10:53:31Z] OverlayManager: Found 2 screens
+[2026-02-02T10:53:31Z] OverlayManager: Window properties set
+[2026-02-02T10:53:31Z] OverlayManager: Window properties set
+[2026-02-02T10:53:31Z] OverlayManager: Scheduling auto-close in 3.0s
+[2026-02-02T10:53:31Z] OverlayView: draw() called for number 1
+[2026-02-02T10:53:31Z] OverlayView: draw() called for number 2
+[2026-02-02T10:53:34Z] OverlayManager: fadeOutAndRemoveOverlays() called

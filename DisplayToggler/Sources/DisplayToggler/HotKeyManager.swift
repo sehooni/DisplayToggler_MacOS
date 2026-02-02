@@ -5,95 +5,74 @@ import Carbon
 class HotKeyManager {
     static let shared = HotKeyManager()
     
-    private var hotKeyRefs: [UInt32: EventHotKeyRef] = [:]
+    private var globalMonitor: Any?
+    private var localMonitor: Any?
     
-    // IDs
-    private let kMirrorToggleID = UInt32(1)
-    
-    // Window Management IDs
-    private let kWindowLeftID = UInt32(2)
-    private let kWindowRightID = UInt32(3)
-    private let kWindowTopID = UInt32(4)
-    private let kWindowBottomID = UInt32(5)
-    private let kWindowMaximizeID = UInt32(6)
-    
-    // Display Arrangement IDs
-    private let kDisplay1MainID = UInt32(7)
-    private let kDisplay2MainID = UInt32(8)
-
     private init() {}
     
     func registerHotKey() {
-        // Register Cmd + Option + Control + D (Toggle Mirroring)
-        register(keyCode: UInt32(kVK_ANSI_D), modifiers: UInt32(cmdKey | optionKey | controlKey), id: kMirrorToggleID)
+        // Remove existing monitors if any
+        if let monitor = globalMonitor { NSEvent.removeMonitor(monitor) }
+        if let monitor = localMonitor { NSEvent.removeMonitor(monitor) }
         
-        // Window Management: Ctrl + Option + Arrow Keys / Enter
-        register(keyCode: UInt32(kVK_LeftArrow), modifiers: UInt32(controlKey | optionKey), id: kWindowLeftID)
-        register(keyCode: UInt32(kVK_RightArrow), modifiers: UInt32(controlKey | optionKey), id: kWindowRightID)
-        register(keyCode: UInt32(kVK_UpArrow), modifiers: UInt32(controlKey | optionKey), id: kWindowTopID)
-        register(keyCode: UInt32(kVK_DownArrow), modifiers: UInt32(controlKey | optionKey), id: kWindowBottomID)
-        register(keyCode: UInt32(kVK_Return), modifiers: UInt32(controlKey | optionKey), id: kWindowMaximizeID)
+        logger.log("HotKeyManager: Registering NSEvent monitors.")
         
-        // Display Arrangement: Cmd + Option + Control + 1/2
-        register(keyCode: UInt32(kVK_ANSI_1), modifiers: UInt32(cmdKey | optionKey | controlKey), id: kDisplay1MainID)
-        register(keyCode: UInt32(kVK_ANSI_2), modifiers: UInt32(cmdKey | optionKey | controlKey), id: kDisplay2MainID)
-        // Also support Arrow Keys (Left -> 1, Right -> 2)
-        register(keyCode: UInt32(kVK_LeftArrow), modifiers: UInt32(cmdKey | optionKey | controlKey), id: kDisplay1MainID)
-        register(keyCode: UInt32(kVK_RightArrow), modifiers: UInt32(cmdKey | optionKey | controlKey), id: kDisplay2MainID)
+        // Global Monitor (When app is in background)
+        globalMonitor = NSEvent.addGlobalMonitorForEvents(matching: .keyDown) { [weak self] event in
+            self?.handleEvent(event)
+        }
         
-        // Install event handler
-        var eventType = EventTypeSpec(eventClass: OSType(kEventClassKeyboard), eventKind: UInt32(kEventHotKeyPressed))
-        
-        InstallEventHandler(GetApplicationEventTarget(), { (handler, event, userData) -> OSStatus in
-            var hotKeyID = EventHotKeyID()
-            let status = GetEventParameter(event, EventParamName(kEventParamDirectObject), EventParamType(typeEventHotKeyID), nil, MemoryLayout<EventHotKeyID>.size, nil, &hotKeyID)
-            
-            if status == noErr {
-                Task { @MainActor in
-                    HotKeyManager.shared.handleHotKey(id: hotKeyID.id)
-                }
-            }
-            return noErr
-        }, 1, &eventType, nil, nil)
-    }
-    
-    private func register(keyCode: UInt32, modifiers: UInt32, id: UInt32) {
-        var hotKeyRef: EventHotKeyRef?
-        var hotKeyID = EventHotKeyID()
-        hotKeyID.signature = OSType(1163413075) // 'Disp'
-        hotKeyID.id = id
-        
-        let status = RegisterEventHotKey(keyCode, modifiers, hotKeyID, GetApplicationEventTarget(), 0, &hotKeyRef)
-        
-        if status == noErr {
-            hotKeyRefs[id] = hotKeyRef
-            print("Registered hotkey ID: \(id)")
-        } else {
-            print("Failed to register hotkey ID: \(id), status: \(status)")
+        // Local Monitor (When app is in foreground)
+        localMonitor = NSEvent.addLocalMonitorForEvents(matching: .keyDown) { [weak self] event in
+            self?.handleEvent(event)
+            return event
         }
     }
     
-    func handleHotKey(id: UInt32) {
-        print("Handling Hotkey ID: \(id)")
-        switch id {
-        case kMirrorToggleID:
-            DisplayManager.shared.toggleMirroring()
-        case kWindowLeftID:
-            WindowManager.shared.moveFocusedWindow(to: .leftHalf)
-        case kWindowRightID:
-            WindowManager.shared.moveFocusedWindow(to: .rightHalf)
-        case kWindowTopID:
-            WindowManager.shared.moveFocusedWindow(to: .topHalf)
-        case kWindowBottomID:
-            WindowManager.shared.moveFocusedWindow(to: .bottomHalf)
-        case kWindowMaximizeID:
-            WindowManager.shared.moveFocusedWindow(to: .maximize)
-        case kDisplay1MainID:
-            DisplayManager.shared.setMainDisplay(index: 0)
-        case kDisplay2MainID:
-            DisplayManager.shared.setMainDisplay(index: 1)
-        default:
-            break
+    private func handleEvent(_ event: NSEvent) {
+        // Check Modifiers: Cmd + Option + Control
+        // NSEvent.ModifierFlags contains the flags. 
+        // We want strict match or at least these three.
+        // Usually hotkeys allow extra flags (like CapsLock), but let's check for containing these 3.
+        
+        let flags = event.modifierFlags.intersection(.deviceIndependentFlagsMask)
+        let displayModifiers: NSEvent.ModifierFlags = [.command, .option, .control]
+        let windowModifiers: NSEvent.ModifierFlags = [.control, .option]
+        
+        if flags.contains(displayModifiers) {
+            // Display Management (Cmd + Opt + Ctrl)
+            switch event.keyCode {
+            case 2: // D
+                 logger.log("HotKeyManager: Hotkey D (Mirror) detected.")
+                 DisplayManager.shared.toggleMirroring()
+                 
+            case 18, 123: // 1 or Left Arrow
+                 logger.log("HotKeyManager: Hotkey 1/Left (Display 1 Main) detected.")
+                 DisplayManager.shared.setMainDisplay(index: 0)
+                 
+            case 19, 124: // 2 or Right Arrow
+                 logger.log("HotKeyManager: Hotkey 2/Right (Display 2 Main) detected.")
+                 DisplayManager.shared.setMainDisplay(index: 1)
+                 
+            default:
+                 break
+            }
+        } else if flags.contains(windowModifiers) && !flags.contains(.command) {
+            // Window Management (Ctrl + Opt, NO Cmd)
+             switch event.keyCode {
+             case 123: // Left
+                 WindowManager.shared.moveFocusedWindow(to: .leftHalf)
+             case 124: // Right
+                 WindowManager.shared.moveFocusedWindow(to: .rightHalf)
+             case 126: // Up
+                 WindowManager.shared.moveFocusedWindow(to: .topHalf)
+             case 125: // Down
+                 WindowManager.shared.moveFocusedWindow(to: .bottomHalf)
+             case 36: // Return
+                 WindowManager.shared.moveFocusedWindow(to: .maximize)
+             default:
+                 break
+             }
         }
     }
 }

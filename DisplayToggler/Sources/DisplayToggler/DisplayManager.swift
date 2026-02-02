@@ -43,34 +43,30 @@ class DisplayManager {
             var displays = [CGDirectDisplayID](repeating: 0, count: Int(displayCount))
             CGGetOnlineDisplayList(displayCount, &displays, &displayCount)
             
-            // We need to arrange them. A simple way is to place them side-by-side.
-            // Main display at (0,0).
-            // Secondary displays to the right.
-            
-            var currentX: Int32 = 0
-            
-            // Sort displays to have a consistent order, maybe by ID or just use the list
-            // Ensure main display is processed first or handled specifically
             let mainDisplay = CGMainDisplayID()
             
-            // Configure main display first at 0,0
-            CGConfigureDisplayOrigin(config, mainDisplay, 0, 0)
-            CGConfigureDisplayMirrorOfDisplay(config, mainDisplay, CGDirectDisplayID(0)) // Stop mirroring
-            
-            currentX += Int32(CGDisplayPixelsWide(mainDisplay))
+            // Configure main display first (Stop mirroring)
+            CGConfigureDisplayMirrorOfDisplay(config, mainDisplay, CGDirectDisplayID(0))
             
             for display in displays {
                 if display != mainDisplay {
-                    CGConfigureDisplayMirrorOfDisplay(config, display, CGDirectDisplayID(0)) // Stop mirroring
-                    CGConfigureDisplayOrigin(config, display, currentX, 0)
-                    currentX += Int32(CGDisplayPixelsWide(display))
+                    // Stop mirroring for secondary displays
+                    // Do NOT force position (Origin). Let macOS restore previous layout.
+                    CGConfigureDisplayMirrorOfDisplay(config, display, CGDirectDisplayID(0))
                 }
             }
         }
         
         let completeError = CGCompleteDisplayConfiguration(config, .permanently)
         if completeError != .success {
+            logger.log("DisplayManager: Error completing display configuration: \(completeError)")
             print("Error completing display configuration: \(completeError)")
+        } else {
+            // Show identification if we entered Extended Mode
+            if !enabled {
+                logger.log("DisplayManager: Configuration successful. Requesting Overlay.")
+                OverlayManager.shared.showDisplayIdentification()
+            }
         }
     }
     
@@ -135,6 +131,8 @@ class DisplayManager {
         let completeError = CGCompleteDisplayConfiguration(config, .permanently)
         if completeError != .success {
             print("Error completing display configuration: \(completeError)")
+        } else {
+            OverlayManager.shared.showDisplayIdentification()
         }
     }
     
@@ -195,7 +193,20 @@ class DisplayManager {
         if completeError != .success {
             print("Error completing display configuration to set main: \(completeError)")
         } else {
+            logger.log("DisplayManager: Main display swapped successfully to index \(index). Requesting Overlay.")
             print("Main display swapped successfully to index \(index).")
+            
+            // Force Dock to move to the new main display
+            // Delay slightly to ensure system registers the new layout
+            Task {
+                try? await Task.sleep(nanoseconds: 1_000_000_000) // 1 second
+                let task = Process()
+                task.launchPath = "/usr/bin/killall"
+                task.arguments = ["Dock"]
+                try? task.run()
+            }
+            
+            OverlayManager.shared.showDisplayIdentification()
         }
     }
     
